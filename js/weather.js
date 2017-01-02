@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 function weather() {
   $.ajax({
-    url: 'http://api.apixu.com/v1/forecast.json?key=27152cd6b9024f3da18212146170201&q=32801',
+    url: 'https://api.apixu.com/v1/forecast.json?key=27152cd6b9024f3da18212146170201&q=32801',
     type: 'GET',
     datatype: 'json',
     success: function(weather) {
